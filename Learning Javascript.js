@@ -85,3 +85,50 @@ var b = 7;
 console.log(b);
 //const b = 8; //you can not declare a var variable constant in javascript
 //console.log(b);
+
+
+
+
+
+a = 1;
+b = 3.23;
+c = "Sanam";
+d = 'c';
+f = true;
+//finding data types by first method.
+console.log(a,"is a", typeof(a));
+console.log(b,"is a", typeof(b));
+console.log(c,"is a", typeof(c));
+console.log(d,"is a", typeof(d));
+console.log(f,"is a", typeof(f));//finding data types by second method.
+console.log(); //for next line
+console.log(a,"is a", typeof a);
+console.log(b,"is a", typeof b);
+console.log(c,"is a", typeof c);
+console.log(d,"is a", typeof d);
+console.log(f,"is a", typeof f);
+
+
+//In  javascript you can type string in single quotes
+console.log('Javad');
+
+
+
+
+
+//Conditions in javascript
+age = 2;
+if(age>=18) console.log("Older");
+else console.log("Younger");
+
+
+// person can vote or not
+age = 19;
+if(age>=18) console.log("You can vote.");
+else console.log("You can't vote.");
+
+//even or odd number
+num = 8;
+if(num%8==0) console.log(num,"is Even.");
+else console.log(num, "is Odd.");
+
