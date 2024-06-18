@@ -69,6 +69,18 @@ console.log(g);
 //console.log(g);
 
 
+//Operators in Javascript
+
+let firstNum = 5;
+let secondNum = 7;
+console.log(firstNum + secondNum);  //12
+console.log(firstNum - secondNum);  //-2
+console.log(firstNum * secondNum);  //35
+console.log(firstNum / secondNum);  //0.7142857142857143
+console.log(firstNum % secondNum); //5
+console.log(firstNum**secondNum); //78125 **is the power operator here 5^7 = 78125
+
+
 var b = 7;
 console.log(b);
 //const b = 8; //you can not declare a var variable constant in javascript
