@@ -18,3 +18,35 @@ console.log(a,b,c); //5 6 10
 
 
 console.log("Maimoona", "is", "Learning", "Javascript."); //Maimoona is Learning Javascript.
+
+
+
+// in c++
+//age =44;
+//cout<<"My age is "<<age<<endl; //My age is 44
+//Now question is how is it in javascript?
+
+
+age=44;
+b = "My age is";
+console.log(b,age);  //My age is 34
+console.log("My age is",age);   //My age is 34
+console.log("My age is "+age);  //My age is 34
+console.log("My age is "); //My age is
+console.log(age); //44
+console.log("My age is "+age+" I am a student."); //My age is 44 I am a student.
+console.log("My age is",age,"I am a student."); //My age is 44 I am a student.
+
+
+
+//var let const in javascript
+var f =5;
+console.log(f);
+f = 6;
+console.log(f);
+
+
+const d =7;
+console.log(d);
+//d = 10; //error: Assignment to constant variable.
+console.log(d); //error
