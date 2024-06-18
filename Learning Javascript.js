@@ -8,3 +8,10 @@ console.log(b);
 console.log(b+4);  //adding 4 in the value of b
 b = "Nadia";  //assigning string to b
 console.log(b);
+
+
+
+a=5;
+b=6;
+c=10;
+console.log(a,b,c); //5 6 10
