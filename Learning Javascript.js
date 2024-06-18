@@ -132,3 +132,48 @@ num = 8;
 if(num%8==0) console.log(num,"is Even.");
 else console.log(num, "is Odd.");
 
+
+
+
+num1 = 24
+if(num1>=100 && num1<=999) console.log("Three digit number.");
+else console.log("Not a Three digit number.");
+
+//== equal operator: it answers in true or false. it checks only value.
+a = 10;
+b = 10;
+console.log(a==b);   //true
+
+a = 10;
+b = '10';
+console.log(a==b);   //true
+// === equal operator checks data type and value both
+console.log(a===b);   //false
+
+//*************Loop in js************
+for(i = 1; i<=10; i++) {
+    console.log(i);
+}
+
+for(let i = 1; i<=10; i++) {
+    console.log(i);
+}
+
+for(var i = 1; i<=10; i++) {
+    console.log(i);
+}
+//while loop in js to print 10 to 20.
+let j = 10;
+while(j<=20) {
+    console.log(j);
+    j++;
+}
+//do- while loop in js to 21 to 30.
+let k = 21;
+do{
+    console.log(k);
+    k++;
+}
+while(k<=30);
+
+
