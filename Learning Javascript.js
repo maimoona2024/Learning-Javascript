@@ -50,3 +50,26 @@ const d =7;
 console.log(d);
 //d = 10; //error: Assignment to constant variable.
 console.log(d); //error
+
+
+
+console.log(a);
+var a = 6; //no error in redefinition
+console.log(a);
+
+
+let f = 5;
+console.log(f);
+f = 6; //no error in redefinition
+console.log(f);
+
+let g = 5;
+console.log(g);
+//let g = 6; //error in redefinition no need to write let again in redefinition
+//console.log(g);
+
+
+var b = 7;
+console.log(b);
+//const b = 8; //you can not declare a var variable constant in javascript
+//console.log(b);
