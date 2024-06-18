@@ -15,3 +15,6 @@ a=5;
 b=6;
 c=10;
 console.log(a,b,c); //5 6 10
+
+
+console.log("Maimoona", "is", "Learning", "Javascript."); //Maimoona is Learning Javascript.
