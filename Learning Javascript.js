@@ -177,3 +177,45 @@ do{
 while(k<=30);
 
 
+
+
+
+
+array = [1,2,3,4]; //[ 1, 2, 3, 4 ]
+console.log(array);
+console.log(array[0]);
+console.log(array.length);
+for(let i =0; i<array.length; i++) {
+    console.log(array[i]);
+}
+//adding an element in last of array in js
+array.push(10);
+console.log(array); //[ 1, 2, 3, 4, 10 ]
+//removing last element from array in js
+array.pop();
+console.log(array); //[ 1, 2, 3, 4 ]
+//adding an element in starting of an array in js
+array.unshift(3); //unshift mean to add
+console.log(array); //[ 3, 1, 2, 3, 4 ]
+//removing an element in starting of an array in js
+array.shift(); //shift mean to remove
+console.log(array); //[ 1, 2, 3, 4 ]
+
+
+
+//const array you can insert or change any element but you cannot reassign const array any different value
+const arr = [2,3,4,5];
+arr[0]= 1;
+console.log(arr);
+
+//replacing any element in array in js
+let cities = ["Karachi", "Multan", "Sahiwal"];
+cities[3] = "Gujranwala"; //adding element at index 3 in array.
+console.log(cities);
+cities[0] = "Hyderabad"; //replacing element at index 0 in array.
+console.log(cities);
+//two-D array in js
+arr2 = [[1,2,3],[4,5,6]];
+console.log(arr2); //[ [ 1, 2, 3 ], [ 4, 5, 6 ] ]
+
+
