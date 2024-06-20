@@ -252,5 +252,21 @@ console.log(c.charAt(2));
 //slice builtin function will cut string from where you want to cut
 let g = "Giraffe";
 console.log(g.slice(3));  //affe
+//slice builtin function will cut string from any index to any index.
+let name = "Maimoona";
+console.log(name.slice(3,8)); //moona index 3 and 8 will be included
+
+//string to array with split function
+//splitting on the bases of space.
+let m = "Pakistan is a beautiful country.";
+console.log(m.split(' ')); //[ 'Pakistan', 'is', 'a', 'beautiful', 'country.' ]
+//by using for loop
+for(const ele of m) {
+    console.log(ele)
+}
+//splitting on the bases of comma(,)
+let c = "India, Pakistan, America, NewYork";
+console.log(c.split(',')); //[ 'India', ' Pakistan', ' America', ' NewYork' ]
+
 
 
