@@ -270,3 +270,15 @@ console.log(c.split(',')); //[ 'India', ' Pakistan', ' America', ' NewYork' ]
 
 
 
+
+
+
+
+
+
+
+//***********************TEMPLATE LITERAL IN JS VERY IMPORTANT*****************
+let a = "Physics book is of ";
+let b = 2020;
+console.log(`My ${a} Dr Saif ${b}`); //My Physics book is of  Dr Saif 2020
+
