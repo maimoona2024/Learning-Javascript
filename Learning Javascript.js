@@ -281,4 +281,10 @@ console.log(c.split(',')); //[ 'India', ' Pakistan', ' America', ' NewYork' ]
 let a = "Physics book is of ";
 let b = 2020;
 console.log(`My ${a} Dr Saif ${b}`); //My Physics book is of  Dr Saif 2020
+//**************PROMBLEMS IN DOUBLE QUOTES*********************************
+// What if you want to pring Paki"stan?
+let p = "Paki\"stan" //use \to pring above string.
+console.log(p); //Paki"stan
+//second method
+console.log(`Paki"stan`);
 
