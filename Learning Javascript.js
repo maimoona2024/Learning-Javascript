@@ -219,3 +219,38 @@ arr2 = [[1,2,3],[4,5,6]];
 console.log(arr2); //[ [ 1, 2, 3 ], [ 4, 5, 6 ] ]
 
 
+
+
+
+
+
+
+
+
+//*****************BuiltIn functions on string****************************
+let a = "Pakistan is a beautiful country.";
+console.log(a,a.length);
+console.log(a[4]); //s is on index 4
+for(let i =0; i<a.length; i++) {
+    console.log(a[i]);
+}
+for(const ele of a) { //for of loop 
+    console.log(ele);
+}
+console.log(a.toUpperCase()); // PAKISTAN IS A BEAUTIFUL COUNTRY. (U and C are capital)
+console.log(a.toLowerCase()); // pakistan is a beautiful country. //L and C are capital
+let b = "   India is a big country.   ";
+console.log(b,b.trim()); //it will just remove space in corner of string b.
+//index of function can find index no of any character in string.
+console.log(b.indexOf('n')); //4 
+//lastIndexOf() function can find index from last of string
+console.log(b.lastIndexOf('b')); //14
+//charAt() builtin function will find character at any index
+let c = "Cat";
+console.log(c[2]);
+console.log(c.charAt(2));
+//slice builtin function will cut string from where you want to cut
+let g = "Giraffe";
+console.log(g.slice(3));  //affe
+
+
