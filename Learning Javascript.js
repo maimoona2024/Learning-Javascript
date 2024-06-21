@@ -382,3 +382,23 @@ From Sahiwal
 To Islamabad
 */
 
+
+
+let train = {
+    Name: "Shalimar",
+    Arriaval: "09:00",
+    Departure: "02:00",
+    From: "Sahiwal",
+    To: "Islamabad",
+};
+//you can also access data member with for in loop without if condition.
+for(const key in train) {
+        console.log(key, train[key]);
+};
+/*  OUTPUT
+Name Shalimar
+Arriaval 09:00
+Departure 02:00
+From Sahiwal
+To Islamabad
+*/
