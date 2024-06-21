@@ -402,3 +402,61 @@ Departure 02:00
 From Sahiwal
 To Islamabad
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//**************************FUNCTIONS IN JS*****************************
+function oneTonine(n) //function keyword is must for function.
+{
+    for(i = 0; i <=n; i++) {
+        console.log(i);
+    }
+    console.log("*********************************");
+}
+oneTonine(10);
+oneTonine(3);
+oneTonine(9);
+
+
+//Math.abs() function convert negative answer to positive
+let a = -2;
+let b = 4;
+console.log(Math.abs(a*a*a)+Math.abs(b*b*b)); //72 as you can see answer is positive.
+
+//now doing the same thing with function
+function add(c,d) {
+    let e = Math.abs(c*c*c) + Math.abs(d*d*d);
+    console.log(e);
+}
+add(2,3); //35
+//*************Math function in js*************
+//Math.abs() function convert negative value to positive.
+console.log(Math.abs(-2)); //2
+//Math.max() find maximum value;
+console.log(Math.max(10,20,30)); //30
+//Math.min() find minimum value between numbers
+console.log(Math.min(10,20,1,-2)); //-2
+//Math.pow() function find power of a to b.
+console.log(Math.pow(2,2)); //4
+//Math.sqrt() find the square root of the given number.
+console.log(Math.sqrt(9)); //3
+//Math.cbrt() used to find cube root
+console.log(Math.cbrt(729)); //9
+//Math.log() is used to find log of numbers
+console.log(Math.log10(10)); //1
+console.log(Math.log(27)); //3.295836866004329
+//Math.floor() is used to remove extra numbers after decimal.
+console.log(Math.floor(3.142)) //3
+console.log(Math.floor(3.9)) //3
