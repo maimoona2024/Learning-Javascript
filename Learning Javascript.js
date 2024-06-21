@@ -288,3 +288,97 @@ console.log(p); //Paki"stan
 //second method
 console.log(`Paki"stan`);
 
+
+//**************************Objects in JavaScript************************
+
+
+let student = {
+    Name: "Dilawar", //no space should be in variable name.
+    FatherName: "Hussain",
+    Class: "Eight",
+    Section: "C",
+};
+/* 
+{
+  Name: 'Dilawar',
+  FatherName: 'Hussain',
+  Class: 'Eight',
+  Section: 'C'
+}
+*/
+console.log(student);
+console.log(student.Name); //Dilawar
+console.log(student.FatherName); //Hussain
+console.log(student.Class); //Eight
+console.log(student.Section); //C
+student = {
+    Name: "Dilawar", //no space should be in variable name.
+    "Father Name": "Hussain",
+    Age: 18,
+    Class: "Eight",
+    Section: "C",
+};
+console.log(student);
+//Methods to access members from object
+console.log(student['Class']); //Eight
+console.log(student['Name']);  //Dilawar
+//accessing all members of objects with comma separation.
+console.log(student.Name,student['Father Name'],student.Class, student.Section)//Dilawar Hussain Eight C
+
+
+
+//updating class in student object;
+student.Class = "Nine"; //updating class in object
+console.log(student.Class); //Nine
+student.Age = 20; //updating age in object
+console.log(student.Age); //20
+
+
+//For in loop in objects in js
+let train = {
+    Name: "Shalimar",
+    Arriaval: "09:00",
+    Departure: "02:00",
+    From: "Sahiwal",
+    To: "Islamabad",
+};
+//accessing keys of object train.
+for(const key in train) {
+    if(Object.hasOwnProperty.call(train,key)) {
+        console.log(key);
+    };
+};
+/*  OUTPUT:
+Name
+Arriaval
+Departure
+From
+To
+*/
+//now accessing only values of object train.
+for(const key in train) {
+    if(Object.hasOwnProperty.call(train,key)) {
+        console.log(train[key]);
+    };
+};
+/* 
+Shalimar
+09:00
+02:00
+Sahiwal
+Islamabad
+*/
+//now accessing both keys and values of object train.
+for(const key in train) {
+    if(Object.hasOwnProperty.call(train,key)) {
+        console.log(key, train[key]);
+    };
+};
+/* 
+Name Shalimar
+Arriaval 09:00
+Departure 02:00
+From Sahiwal
+To Islamabad
+*/
+
