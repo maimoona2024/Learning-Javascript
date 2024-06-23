@@ -460,3 +460,22 @@ console.log(Math.log(27)); //3.295836866004329
 //Math.floor() is used to remove extra numbers after decimal.
 console.log(Math.floor(3.142)) //3
 console.log(Math.floor(3.9)) //3
+console.log(Math.floor(-2.3)); //-3
+console.log(Math.floor(6.8));  //6
+console.log(Math.ceil(7.9));  //8  //complete round off
+
+console.log(Math.random()); //it generates random number between 0 and 1.
+console.log(Math.floor(Math.random()*10)); //now it generates random number between 0 to 9.
+console.log(Math.floor(Math.random()*11)); //now it generates random number between 0 to 10.
+console.log() //for next line.
+
+console.log(Math.floor(Math.random()*21)-10); //now it generates random number between -10 to 10.
+
+console.log() //for next line
+
+if(Math.random() < 0.5) {
+    console.log("Hello");
+}
+else {
+    console.log("Bye");
+}
