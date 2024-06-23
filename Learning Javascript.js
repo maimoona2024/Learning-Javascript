@@ -479,3 +479,75 @@ if(Math.random() < 0.5) {
 else {
     console.log("Bye");
 }
+
+
+
+
+
+//*********************************************SET TIME OUT FUNCTION*********************************************
+//call back function ek esa function hota hai jo ek function main pas hota hai.
+
+
+function Product(a,b,c) {
+    return a*b*c;
+}
+function fun(x,y) {
+    return x+y;
+}
+console.log(fun(Product(2,4,3),2));
+
+
+function Product(a,b,c) {
+    return a*b*c;
+}
+function fun(x,y) {
+    let a = x(2,4,3);
+    console.log(a+y);
+}
+fun(Product,2);
+
+
+
+set time out in js
+//print 1 to 10 with delay of 1 sec after each print
+function Hello() {
+    console.log("Hello!");
+}
+function Bye() {
+    console.log("Bye!");
+}
+Bye();
+//in setTimeout function first call function in setTimeout function and then seconds multiply by 1000
+setTimeout(Hello,10*1000); //printing hello after 10 seconds of bye.
+
+
+setTimeout function printing all after 3 seconds of each print.
+
+setTimeout(function(){
+    console.log("Hello");
+},3*1000);
+setTimeout(function(){
+    console.log("world");
+},6*1000);
+setTimeout(function(){
+    console.log("I am learning JavaScript.");
+},9*1000);
+
+//below for loop is printing counting beautifully 1 to 10 after each second there is one second delay.
+for(let i = 1; i <= 10; i++) {
+    setTimeout(function(){
+        console.log(i);
+    },i*1000)
+}
+//below code is printing counting 1 to 30 after half second delay.
+for(let i = 30; i >= 1; i--) {
+    setTimeout(function(){
+        console.log(i);
+    },i*500)
+}
+//printing backward counting from 10 to 1
+for(let i = 1; i<=10; i++) {
+    setTimeout(function(){
+        console.log(11-i);
+    },i*200)
+}
