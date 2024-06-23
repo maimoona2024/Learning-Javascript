@@ -619,3 +619,21 @@ for(const element of arr) {
     brr.push(Math.abs(element)); //pushing arr element in brr after converting negative number to positive number
 };
 console.log(brr);
+
+
+function twice(ele) {
+    return 2*ele;
+}
+function square(ele) {
+    return ele * ele;
+}
+function add(ele) {
+    return ele + 10;
+}
+
+let array = [1,2,3,4];
+console.log(array);
+let barray = array.map(function (ele) {
+    return ele + 10;
+});
+console.log(barray);
