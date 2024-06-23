@@ -551,3 +551,71 @@ for(let i = 1; i<=10; i++) {
         console.log(11-i);
     },i*200)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//generating random number after a second delay between 0 to 9
+for(let i = 0; i<=10; i++) {
+    setTimeout(function(){
+    console.log(Math.floor(Math.random()*10));
+},i*1000)
+}
+
+
+
+
+
+
+
+
+
+
+
+//****************************************ARRAY(MAP,FILTER,REDUCE)***********************************************************
+let arr = [1,2,3,4];
+console.log(arr);
+let brr = []; //empty array in js
+for(const element of arr) {
+    brr.push(element*2); //pushing arr element in brr after multiplying each element by 2.
+};
+console.log(brr);
+
+
+let arr = [1,2,3,4];
+console.log(arr);
+let brr = []; //empty array in js
+for(const element of arr) {
+    brr.push(element*element); //pushing arr element in brr after finding square of each element.
+};
+console.log(brr);
+
+
+
+let arr = [1,2,3,4];
+console.log(arr);
+let brr = []; //empty array in js
+for(const element of arr) {
+    brr.push(element); //pushing arr element in brr
+};
+console.log(brr);
+
+
+let arr = [1,-2,-3,4];
+console.log(arr);
+let brr = []; //empty array in js
+for(const element of arr) {
+    brr.push(Math.abs(element)); //pushing arr element in brr after converting negative number to positive number
+};
+console.log(brr);
